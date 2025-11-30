@@ -1,0 +1,265 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+ \vspace{5pt}
+\begin{center}
+    {\Huge \scshape Faizyab Ahmad} \\ \vspace{2pt}
+   H92 Asc Colony Nowshera Cant KPK \\ \vspace{2pt}
+    \small \raisebox{-0.1\height}\faPhone\ +923238559332 ~ \href{Faizyab2023@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{Faizyab2023@gmail.com}} ~ 
+    \href{www.linkedin.com/in/faizyab-ahmad-b1469a36b}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/faizyab-ahmad }}  ~
+    \href{github.com/faizyabahmad}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/faizyabahmad}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering And Technology Peshawar}{August 2021 -- August 2025}
+      {Bachelor of Science in Computer Science}{Peshawar, Kpk}
+  \resumeSubHeadingListEnd
+  
+
+%------RELEVANT COURSEWORK-------
+\section{Professional Strengths }
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small SAP MM
+                \item Vendor Management 
+                \item Contract Negotiation 
+                \item Data Analysis 
+                \item Problem Solving 
+                \item Cost Reduction  
+                \item Process Optimization 
+                \item E-commerce Operations  
+            \end{itemize}
+        \end{multicols}
+        % \vspace*{-0.5\multicolsep}
+    %\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+ \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Procurement Executive (SAP MM) }{Jan 2025 -- Present}
+        {Ferozsons Laboratories Ltd }{Pakistan}
+      \resumeItemListStart
+        \resumeItem{Manage end-to-end procurement cycle including PR creation, PO issuance, and GRN posting in SAP MM. }
+        \resumeItem{Source, evaluate, and negotiate with vendors to secure competitive pricing and reliable delivery.}
+        \resumeItem{Coordinate with finance, warehouse, and planning teams to ensure continuous material availability}
+        % \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+       {E-Commerce Services \& Client Acquisition Associate }{March 2023 -- Present}
+      {Freelance}{}
+      \resumeItemListStart
+        \resumeItem{Provided e-commerce account setup and onboarding support for platforms such as Amazon and other online marketplaces. }
+        \resumeItem{Consulted clients on how to start and manage online selling, helping them understand platform requirements and procedures. }
+        \resumeItem{Negotiated service fees and project terms, improving conversion rates and client satisfaction. }
+        \resumeItem{Developed sales skills by identifying customer needs and presenting tailored service solutions. }
+        \resumeItem{Built strong client relationships through communication, after-sales guidance, and problem-solving. }
+        \resumeItem{
+Generated repeat business by delivering timely, reliable services and maintaining professional support.
+}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-3pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ {\textbf{Automated Course Evaluation System (ACES)}}} $|$ \emph{Final Year Project}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a student–teacher feedback platform using \textbf{Node.js, MySQL, and Bootstrap}. }
+            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+            \resumeItem{Implemented real-time data analysis for feedback insights. }
+            \resumeItem{Managed full project lifecycle, from planning to final presentation. }
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Supply Chain Optimization \& Vendor Evaluation } $|$ \emph{Academic Simulation}}{November 2023}
+          \resumeItemListStart
+            \resumeItem{Academic Simulation }
+            \resumeItem{Participated in an academic simulation focused on supply chain optimization and vendor evaluation. }
+            \resumeItem{Designed a simple inventory tracking system to monitor stock levels and set reorder points. }
+            \resumeItem{Evaluated vendor performance to identify the most efficient and cost-effective suppliers. }
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Interactive Sales Dashboard (Frontend} $|$ \emph{Academic Simulation}}{October 2022}
+          \resumeItemListStart
+           \resumeItem{Developed a fully responsive web application using HTML5, CSS3 (Bootstrap), and JavaScript to visualize simulated sales data.}
+            \resumeItem{Implemented dynamic filtering and sorting features for user analysis of key performance indicators (KPIs).}
+            \resumeItem{Ensured optimal cross-browser compatibility and focused on modern frontend best practices for a clean user experience.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: HTML/CSS, JavaScript, SQL} \\
+%      \textbf{Developer Tools}{: SAP ERP, VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
+%      \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
+%     }}
+%  \end{itemize}
+%  \vspace{-16pt}
+
+% \section{Leadership / Extracurricular }
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{3}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Event Coordinator 
+%                 \item Class Representative  
+%                 \item Volunteer Work 
+%                 \item Team Lead (Project)
+%                 \item Tech Society Member  
+%                 \item Sports Participation    
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{0.5\multicolsep}
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+ \resumeSubheading{ComputerCell UET}{Spring 2022 -- 2025}{Ambassador} {University of Engineering And Technology Peshawar}
+            \resumeItemListStart
+                \resumeItem{Organized tech workshops and events for 100+ students to improve practical skills in software and data.}
+                \resumeItem{Led a team of 8 members to plan and run club activities successfully.}
+                \resumeItem{Worked with industry professionals to give students mentorship and internship opportunities.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
